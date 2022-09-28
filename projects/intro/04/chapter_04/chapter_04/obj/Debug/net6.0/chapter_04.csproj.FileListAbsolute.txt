@@ -1,0 +1,15 @@
+C:\Users\posvi\projects\intro\04\chapter_04\chapter_04\bin\Debug\net6.0\chapter_04.exe
+C:\Users\posvi\projects\intro\04\chapter_04\chapter_04\bin\Debug\net6.0\chapter_04.deps.json
+C:\Users\posvi\projects\intro\04\chapter_04\chapter_04\bin\Debug\net6.0\chapter_04.runtimeconfig.json
+C:\Users\posvi\projects\intro\04\chapter_04\chapter_04\bin\Debug\net6.0\chapter_04.dll
+C:\Users\posvi\projects\intro\04\chapter_04\chapter_04\bin\Debug\net6.0\chapter_04.pdb
+C:\Users\posvi\projects\intro\04\chapter_04\chapter_04\obj\Debug\net6.0\chapter_04.csproj.AssemblyReference.cache
+C:\Users\posvi\projects\intro\04\chapter_04\chapter_04\obj\Debug\net6.0\chapter_04.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\posvi\projects\intro\04\chapter_04\chapter_04\obj\Debug\net6.0\chapter_04.AssemblyInfoInputs.cache
+C:\Users\posvi\projects\intro\04\chapter_04\chapter_04\obj\Debug\net6.0\chapter_04.AssemblyInfo.cs
+C:\Users\posvi\projects\intro\04\chapter_04\chapter_04\obj\Debug\net6.0\chapter_04.csproj.CoreCompileInputs.cache
+C:\Users\posvi\projects\intro\04\chapter_04\chapter_04\obj\Debug\net6.0\chapter_04.dll
+C:\Users\posvi\projects\intro\04\chapter_04\chapter_04\obj\Debug\net6.0\refint\chapter_04.dll
+C:\Users\posvi\projects\intro\04\chapter_04\chapter_04\obj\Debug\net6.0\chapter_04.pdb
+C:\Users\posvi\projects\intro\04\chapter_04\chapter_04\obj\Debug\net6.0\chapter_04.genruntimeconfig.cache
+C:\Users\posvi\projects\intro\04\chapter_04\chapter_04\obj\Debug\net6.0\ref\chapter_04.dll
