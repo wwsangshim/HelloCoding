@@ -19,27 +19,29 @@ namespace UltimateBaseball
 
             Console.WriteLine(">수비수가 고른 숫자");
             int[] numbers = { 3, 1, 9 };
-            Console.WriteLine(numbers[0]);
-            Console.WriteLine(numbers[1]);
-            Console.WriteLine(numbers[2]);
+            for (int i= 0; i<3; i++)
+            {
+                Console.WriteLine(numbers[i]);
+            }
+           
+
 
             int[] guesses = new int[3];
+            string[] inputMessage = { "> 첫 번쨰숫자를 입력하세요.", "> 두 번쨰숫자를 입력하세요.", "> 세 번쨰숫자를 입력하세요." };
             while (true)
             {
-                Console.WriteLine("> 첫번째 숫자를 입력하세요");
-                guesses[0] = int.Parse(Console.ReadLine());
-
-                Console.WriteLine("> 두번째 숫자를 입력하세요");
-                guesses[1] = int.Parse(Console.ReadLine());
-
-                Console.WriteLine("> 세번째 숫자를 입력하세요");
-                guesses[2] = int.Parse(Console.ReadLine());
+                for (int i = 0; i < 3; i++)
+                {
+                    Console.WriteLine(inputMessage[i]);
+                    guesses[i] = int.Parse(Console.ReadLine());
+                }
 
                 Console.WriteLine(">공격수가 고른 숫자");
-                Console.WriteLine(guesses[0]);
-                Console.WriteLine(guesses[1]);
-                Console.WriteLine(guesses[2]);
-            
+                for (int i = 0; i < 3; i++)
+                { 
+                     Console.WriteLine(guesses[i]);
+
+                }
 
             if (guesses[0] == guesses[1] || guesses[0] == guesses[2] || guesses[1] == guesses[2])
             {
@@ -51,32 +53,24 @@ namespace UltimateBaseball
             int strikeCount = 0;
             int ballCount = 0;
 
-            if (guesses[0] == numbers[0])
-             {
-                    strikeCount = strikeCount + 1;
-             }
-            else if (guesses[0] == numbers[1] || guesses[0] == numbers[2])
-             {
-                    ballCount = ballCount + 1;
-             }
+            for (int i =0; i<3; i++)
+                {
+                    for (int j=0; j<3; j++)
+                    {
+                        if (guesses[i] == numbers[j])
+                            {
+                            if (i == j)
+                            {
+                                strikeCount++;
 
-            if (guesses[1] == numbers[1])
-             {
-                    strikeCount = strikeCount + 1;
-             }
-            else if (guesses[1] == numbers[0] || guesses[1] == numbers[2])
-             {
-                    ballCount = ballCount + 1;
-             }
-
-            if (guesses[2] == numbers[2])
-             {
-                    strikeCount = strikeCount + 1;
-             }
-            else if (guesses[2] == numbers[0] || guesses[2] == numbers[1])
-             {
-                    ballCount = ballCount + 1;
-             }
+                            }
+                            else
+                            {
+                                ballCount++;
+                            }
+                        }
+                    }
+                }
 
                 Console.Write("스트라이트: ");
                 Console.WriteLine(strikeCount);
